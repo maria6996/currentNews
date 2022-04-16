@@ -1,0 +1,22 @@
+{
+    "name": "lightweb/currentsnews",
+    "authors": [
+        {
+            "name": "maria69",
+            "email": "maryamnz5@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "LightWeb\\CurrentsNews\\": "src/"
+        }
+    },
+    "extra" : {
+        "laravel": {
+            "providers": [
+                "LightWeb\\CurrentsNews\\CurrentsNewsServiceProvider"
+            ]
+        }
+    }
+}
